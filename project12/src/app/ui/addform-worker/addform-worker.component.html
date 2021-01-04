@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col-12">
+        <h5>Добавить участников</h5>
+    </div>
+    <div class="col-4">
+        <input [(ngModel)]="name" type="text" class="form-control" placeholder="Имя">
+    </div>
+    <div class="col-4">
+        <input [(ngModel)]="surname" type="text" class="form-control" placeholder="Фамилия">
+    </div>
+    <div class="col-4">
+        <select [(ngModel)]="type" name="" id="" class="custom-select">
+            <option [ngValue]="myWorkerType.programmer">Программист</option>
+            <option [ngValue]="myWorkerType.designer">Дизайнер</option>
+            <option [ngValue]="myWorkerType.copywritter">Рекламщик</option>
+            <option [ngValue]="myWorkerType.manager">Менеджер</option>
+        </select>
+    </div>
+    <div class="col-12 mt-2 mb-2" >
+        <button (click)="onAddWorker()" class="btn btn-outline-primary btn-sm">Добавить</button>
+    </div>
+</div>

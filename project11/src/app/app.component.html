@@ -1,0 +1,30 @@
+<!-- жизненный цикл компонетнта -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-3 col-md- col-sm-12" *ngFor="let card of cards">
+      <div class="card mt-4">
+        <div class="card-body">
+          <h2 class="card-title">ID: {{card.id}}</h2>
+          <p class="card-name">{{card.name}}</p>
+          <p class="card-status" *ngIf="card.status === true"> Онлайн</p>
+          <p class="card-status" *ngIf="card.status === false"> Оффлайн</p>
+          <button class="btn btn-outline-danger" (click)="deleteDet(card.id)">Удалить</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mt-4">
+    <div class="card-body">
+      <div class="form-group">
+        <label for="idInput">Id датчика</label>
+        <input type="email" class="form-control" id="idInput" [(ngModel)]="inputId">
+      </div>
+      <div class="form-group">
+        <label for="nameInput">Имя датчика</label>
+        <input type="email" class="form-control" id="nameInput" [(ngModel)]="inputName">
+      </div>
+      <button class="btn btn-outline-success" (click)="addDet()">Добавить датчик</button>
+    </div>
+  </div>
+</div>
