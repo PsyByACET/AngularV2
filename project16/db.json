@@ -1,0 +1,44 @@
+{
+  "musers": [
+    {
+      "name": "Леонид111",
+      "surname": "Голубков",
+      "patronymic": "Алеексеевич",
+      "type": 0,
+      "number": "+8(999)-999-12-34",
+      "email": "lenyaGGG@mail.ru",
+      "birthday": "1992-12-12",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Матвей",
+      "surname": "Цыбулько",
+      "patronymic": "Иванович",
+      "email": "MatveyCHeck@mail.ru",
+      "number": "+8(999)-999-22-22",
+      "birthday": "1984-11-10",
+      "type": 1
+    },
+    {
+      "id": 3,
+      "name": "Алёна",
+      "surname": "Рогозина",
+      "patronymic": "Александровна",
+      "email": "Alenyvas@yandex.ru",
+      "number": "+8(999)-999-33-33",
+      "birthday": "1996-10-10",
+      "type": 2
+    },
+    {
+      "id": 4,
+      "name": "Илья",
+      "surname": "Голунов",
+      "patronymic": "Дмитреевич",
+      "email": "Axenaxas@mail.ru",
+      "number": "+8(999)-999-44-44",
+      "birthday": "2000-11-11",
+      "type": 3
+    }
+  ]
+}
