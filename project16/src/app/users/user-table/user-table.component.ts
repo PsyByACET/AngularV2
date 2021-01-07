@@ -25,7 +25,41 @@ export class UserTableComponent implements OnInit {
   ngOnInit(): void {
     this.getData();
   }
-
+  sort = null;
+  
+  sortTable(sortType){
+    if (sortType ==0 )
+      if (this.sort! = 0){
+        console.log("ID в порядке возрастания");
+        this.sort = 0;
+        this.users.sort(function(a, b) { 
+          return a.id - b.id;
+        });
+      }
+      else {
+        console.log("ID в порядке убывания");
+        this.sort = 1;
+        this.users.sort(function(a, b) { 
+          return b.id - a.id;
+        });
+      }
+    else 
+      if (this.sort != 2){
+        console.log("Возраст в порядке возрастания");
+        this.sort = 2;
+        this.users.sort(function(a, b) {          
+          return Date.parse(a.birthday) - Date.parse(b.birthday);
+        });
+      }
+      else {
+        console.log("Возраст в порядке убывания");
+        this.sort = 3;
+        console.log(this.users);
+        this.users.sort(function(a, b) {
+          return Date.parse(b.birthday) - Date.parse(a.birthday);
+        });
+      }
+  }
 
   getByType(type: number) {
     // console.log(type);
