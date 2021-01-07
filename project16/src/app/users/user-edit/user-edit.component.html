@@ -42,6 +42,8 @@
         class="form-control" 
         formControlName="number" 
         id="usernumber"
+        [textMask]="{mask: numberMask}"
+        
         />
     </form>
     <form [formGroup]="userForm">

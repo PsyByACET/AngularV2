@@ -5,47 +5,47 @@
       "surname": "Голубков",
       "patronymic": "Алеексеевич",
       "type": 0,
-      "number": "+8(999)-999-12-34",
+      "number": "+7(921)-321-3214",
       "email": "lenyaGGG@mail.ru",
       "birthday": "1992-12-12",
       "id": 1
     },
     {
-      "id": 2,
       "name": "Матвей",
       "surname": "Цыбулько",
       "patronymic": "Иванович",
+      "type": 1,
+      "number": "+7(123)-141-4211",
       "email": "MatveyCHeck@mail.ru",
-      "number": "+8(999)-999-22-22",
       "birthday": "1984-11-10",
-      "type": 1
+      "id": 2
     },
     {
-      "id": 3,
       "name": "Алёна",
       "surname": "Рогозина",
       "patronymic": "Александровна",
+      "type": 2,
+      "number": "+7(534)-534-3432",
       "email": "Alenyvas@yandex.ru",
-      "number": "+8(999)-999-33-33",
       "birthday": "1996-10-10",
-      "type": 2
+      "id": 3
     },
     {
-      "id": 4,
       "name": "Илья",
       "surname": "Голунов",
       "patronymic": "Дмитреевич",
+      "type": 3,
+      "number": "+7(235)-224-2343",
       "email": "Axenaxas@mail.ru",
-      "number": "+8(999)-999-44-44",
       "birthday": "2000-11-11",
-      "type": 3
+      "id": 4
     },
     {
       "name": "saddas",
       "surname": "dsadsad",
       "patronymic": "asdsads",
       "type": 0,
-      "number": "+8(999)-9299-2",
+      "number": "+7(131)-241-2412",
       "email": "adadasd@mail.ru",
       "birthday": "1979-01-31",
       "id": 5
@@ -53,9 +53,9 @@
     {
       "name": "sads",
       "surname": "dawsdas",
-      "patronymic": "asdasd",
+      "patronymic": "dassdasad",
       "type": 0,
-      "number": "asdasdas",
+      "number": "+7(133)-321-3214",
       "email": "sadasd@ewasds",
       "birthday": "1996-02-16",
       "id": 6

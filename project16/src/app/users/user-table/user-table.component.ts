@@ -28,8 +28,8 @@ export class UserTableComponent implements OnInit {
   sort = null;
   
   sortTable(sortType){
-    if (sortType ==0 )
-      if (this.sort! = 0){
+    if (sortType == 0 )
+      if (this.sort != 0){
         console.log("ID в порядке возрастания");
         this.sort = 0;
         this.users.sort(function(a, b) { 
@@ -54,7 +54,7 @@ export class UserTableComponent implements OnInit {
       else {
         console.log("Возраст в порядке убывания");
         this.sort = 3;
-        console.log(this.users);
+        //console.log(this.users);
         this.users.sort(function(a, b) {
           return Date.parse(b.birthday) - Date.parse(a.birthday);
         });

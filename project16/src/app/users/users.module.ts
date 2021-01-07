@@ -8,6 +8,7 @@ import { UserEditComponent } from './user-edit/user-edit.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { UserTableComponent } from './user-table/user-table.component';
 import { FindUsersPipe } from '../shared/pipes/find-users.pipe';
+import { TextMaskModule } from 'angular2-text-mask';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { FindUsersPipe } from '../shared/pipes/find-users.pipe';
     UsersRoutingModule,
     ReactiveFormsModule,
     FormsModule,
+    TextMaskModule,
     
   ]
 })

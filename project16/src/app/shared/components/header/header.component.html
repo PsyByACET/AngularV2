@@ -20,7 +20,11 @@
           >Пользователи</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Иформация</a>
+            <a class="nav-link"
+            [routerLink]="'/info'"
+            [routerLinkActive]="'active'"
+            [routerLinkActiveOptions]="{ exact: true }"
+             >Иформация</a>
           </li>
       </ul>
     </div>

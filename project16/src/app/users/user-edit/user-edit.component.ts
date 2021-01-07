@@ -16,6 +16,9 @@ export class UserEditComponent implements OnInit {
   userForm: FormGroup;
   myWorkerType = MyWorkerType;
 
+  
+  public numberMask = ['+', /[7]/, '(', /[1-9]/, /\d/, /\d/, ')', '-', /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/]
+
   constructor(private activatedRoute: ActivatedRoute, 
     private muserService: MuserService,
     private router: Router) {
