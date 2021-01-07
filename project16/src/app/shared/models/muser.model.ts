@@ -6,7 +6,7 @@ name: string;
     type: number;
     number: string;
     email: string;
-    birthday: Date;
+    birthday: string;
 }
 
 export enum MyWorkerType {

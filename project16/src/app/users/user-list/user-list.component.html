@@ -1,1 +1,44 @@
 
+<div class="row">
+    <div class="col-12">
+        <button class="btn btn-primary mt-3 mr-5 float-right" (click)="onAddProfile()">
+            Добавить пользователя
+        </button>
+    </div>
+    <div class="col-12">
+        <input
+        type="text"
+        class="form-control"
+        placeholder="Найти сотрудника"
+        [(ngModel)]="searchStr"
+        />
+    </div>
+
+</div>
+<app-user-table
+    [title]="'IT отдел'"
+    [typeS]="0" 
+    [searchStroke]="searchStr"
+    >
+</app-user-table>
+
+<app-user-table
+    [title]="'Отдел продаж'"
+    [typeS]="1"
+    [searchStroke]="searchStr" 
+    >
+</app-user-table>
+
+<app-user-table
+    [title]="'Отдел доставки'"
+    [typeS]="2" 
+    [searchStroke]="searchStr"
+    >
+</app-user-table>
+
+<app-user-table
+    [title]="'Юриди'"
+    [typeS]="3" 
+    [searchStroke]="searchStr"
+    >
+</app-user-table>
